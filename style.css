@@ -1,0 +1,74 @@
+
+
+
+  body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-color: #ffffff;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.navbar-container,
+.footer-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 0;
+}
+
+.logo {
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+.navbar a,
+.footer-links span {
+    margin: 0 10px;
+    text-decoration: none;
+    color: #333;
+}
+
+.navbar a:hover {
+    color: #007BFF;
+}
+
+.main-section {
+    text-align: center;
+    margin: 40px 0;
+}
+
+.content-container {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Расстояние между блоками */
+    margin-top: 20px;
+}
+
+.box {
+    color: white;
+    font-size: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    height: 300px; /* Фиксированная высота для примера */
+    flex-grow: 1; /* Позволяет блокам растягиваться */
+    flex-basis: 0; /* Обеспечивает равную ширину */
+}
+
+.left-box {
+    background-color: #FF0000; /* Красный цвет */
+}
+
+.right-box {
+    background-color: #FF0000; /* Красный цвет */
+}
+  
+  
+  
+
+
+
+
+
